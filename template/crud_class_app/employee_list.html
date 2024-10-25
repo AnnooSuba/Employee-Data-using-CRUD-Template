@@ -1,0 +1,10 @@
+{% for object in object_list %}
+
+
+<li>
+    <a href="/update/{{object.emp_no}}">EmpnoNumber is:{{object.emp_no}}Edit</a>
+    <a href="/details/{{object.emp_no}}">Details</a>
+    <a href="/delete/{{object.emp_no}}">Delete</a>
+</li>
+
+{% endfor %}
